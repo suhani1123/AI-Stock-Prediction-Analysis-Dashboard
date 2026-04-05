@@ -1,8 +1,8 @@
 import pandas as pd
 import streamlit as st
 
-from modules.risk_analysis import generate_risk_report
-from modules.risk_analysis import simulate_investment
+from risk_analysis import generate_risk_report
+from risk_analysis import simulate_investment
 
 # Portfolio Simulation UI
 
