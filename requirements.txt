@@ -7,3 +7,4 @@ yfinance
 joblib
 plotly==5.20.0
 tensorflow==2.15.0
+ta
