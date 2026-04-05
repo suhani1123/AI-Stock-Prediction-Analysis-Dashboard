@@ -2,12 +2,12 @@ import streamlit as st
 import pandas as pd
 
 # Import modules
-from modules.data_fetcher import get_stock_data
-from modules.charts import plot_candlestick, plot_prediction, plot_stock_comparison
-from modules.predictor import train_lstm_model, predict_future_prices
-from modules.recommendation import generate_recommendation, get_indicator_summary
-from modules.risk_analysis import generate_risk_report
-from modules.portfolio_simulator import portfolio_simulator
+from data_fetcher import get_stock_data
+from charts import plot_candlestick, plot_prediction, plot_stock_comparison
+from predictor import train_lstm_model, predict_future_prices
+from recommendation import generate_recommendation, get_indicator_summary
+from risk_analysis import generate_risk_report
+from portfolio_simulator import portfolio_simulator
 
 
 # Page Configuration
